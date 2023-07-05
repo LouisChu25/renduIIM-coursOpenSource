@@ -2,10 +2,6 @@
 Rendu IIM
 
 
-# iimcours-opensource
-A beautiful demo package
-
-
 ## Installation
 
 ## Local Development
