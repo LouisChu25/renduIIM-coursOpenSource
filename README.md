@@ -1,6 +1,9 @@
 # renduIIM-coursOpenSource
 Rendu IIM
 
+# Scrapper
+
+With this package, you can scrap a few manga titles from the website : https://mangatx.com/manga/
 
 ## Installation
 
