@@ -1,0 +1,29 @@
+{
+    "name": "louis25/scrappingrenduiim",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Louis25\\Scrappingrenduiim\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Louis",
+            "email": "louis.chu@edu.devinci.fr"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "symfony/dom-crawler": "^6.3",
+        "symfony/css-selector": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2",
+        "phpstan/phpstan": "^1.10"
+    },
+    "scripts": {
+        "phpstan": "@php vendor/bin/phpstan analyse src --level=max",
+        "test": "@php vendor/bin/phpunit tests"
+    }
+}
